@@ -19,7 +19,7 @@ $ git clone https://github.com/andersoncoimbra/desafio-techlead
 #### Instale as bibliotecas necessarias 
 ```Via terminal```
 ```
-$ cd desafio-techhead
+$ cd desafio-techlead
 $ composer install 
 ```
 
@@ -37,7 +37,7 @@ $ composer install
     DB_USERNAME=root
     DB_PASSWORD=
 ````
-* Com o banco configurado na aplicação realize a migração da estrutura do banco 
+* Com o banco configurado na aplicação realize a migração da estrutura do banco <br>
 ```Via terminal```
 ```
 $ php artisan migrate
@@ -45,12 +45,14 @@ $ php artisan migrate
 * Registro de dados iniciais de acesso<br>
 Registra um usuario do tipo administrador e outro do tipo cliente<br> 
 ```Via terminal```
+```
 $ php artisan db:seed
-            
+```
+
 Dados iniciais de acesso: 
 
-    Administrador: email: ***admin@email.com*** senha:***12345678***
-    Cliente: email: ***cliente@email.com*** senha:***12345678***
+Administrador: email: ***admin@email.com*** senha:***12345678***
+Cliente: email: ***cliente@email.com*** senha:***12345678***
 
 
 
