@@ -5,15 +5,16 @@ Sistema criado para  uma das fases de teste de conhecimentos para a vaga de Dese
 
 ### Tecnologias
 Lista de Tecnologias usadas durante o desafio:
-* [PHP](https://php.com/): Version 7.2
-* [Laravel](https://laravel.com/): Version 5.8
-* [Laravel-AdminLTE](https://adminlte.io/): Version 1.27
-* [Composer](composer.io): Version 1
+* [PHP](https://php.com/): Versão 7.2
+* [Laravel](https://laravel.com/): Versão 5.8
+* [Laravel-AdminLTE](https://adminlte.io/): Versão 1.27
+* [Composer](composer.io): Versão 1
 
 ### Instalação 
 ```Via terminal```
-
+```
 $ git clone https://github.com/andersoncoimbra/desafio-techlead
+```
 
 #### Instale as bibliotecas necessarias 
 ```Via terminal```
@@ -29,25 +30,27 @@ $ composer install
 * Edite o arquivo .env alterando as seguinte variaveis com os dados do banco
 
 ````TXT
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=desafio
-        DB_USERNAME=root
-        DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=desafio
+    DB_USERNAME=root
+    DB_PASSWORD=
 ````
 * Com o banco configurado na aplicação realize a migração da estrutura do banco 
-    ```Via terminal```
-        $ php artisan migrate
+```Via terminal```
+```
+$ php artisan migrate
+```
 * Registro de dados iniciais de acesso
-        Registra um usuario do tipo administrador e outro do tipo cliente 
-        ```Via terminal```
-            $ php artisan db:seed
+Registra um usuario do tipo administrador e outro do tipo cliente 
+```Via terminal```
+$ php artisan db:seed
             
-        Dados iniciais de acesso: 
-        ```
-            Administrador: email: ***admin@email.com*** senha:***12345678***
-            Cliente: email: ***cliente@email.com*** senha:***12345678***
-        ```
+Dados iniciais de acesso: 
+```
+    Administrador: email: ***admin@email.com*** senha:***12345678***
+    Cliente: email: ***cliente@email.com*** senha:***12345678***
+```
 
 
