@@ -11,7 +11,8 @@ Lista de Tecnologias usadas durante o desafio:
 * [Composer](composer.io): Version 1
 
 ### Instalação 
-```Via terminal```
+-```Via terminal```
+
 $ git clone https://github.com/andersoncoimbra/desafio-techlead
 
 #### Instale as bibliotecas necessarias 
@@ -20,7 +21,9 @@ $ git clone https://github.com/andersoncoimbra/desafio-techlead
 $ cd desafio-techhead
 $ composer install 
 ```
+
 #### Banco de dados 
+
     * Crie o baco de dados chamado **desafio**
     * Crie um aquivo .env na raiz com base no arquivo .env.example (copie e cole)
     * Edite o arquivo .env alterando as seguinte variaveis com os dados do banco 
