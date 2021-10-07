@@ -2,6 +2,7 @@
 Sistema de Gerenciamente de Biblioteca
 Sistema criado para  uma das fases de teste de conhecimentos para a vaga de Desenvolvedor PHP da TECHLEAD, nesse desafio é usado Laravel como framework principal pois fornece recursos que reduzem o tempo de desenolvimento.
 ***
+
 ### Tecnologias
 Lista de Tecnologias usadas durante o desafio:
 * [PHP](https://php.com/): Version 7.2
