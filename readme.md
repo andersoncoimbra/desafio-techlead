@@ -50,8 +50,8 @@ $ php artisan db:seed
 ```
 
 Dados iniciais de acesso: 
-Administrador: email: ***admin@email.com*** senha:***12345678***
-Cliente: email: ***cliente@email.com*** senha:***12345678***
+Administrador: email: ***admin@email.com*** senha:***12345678*** <br>
+Cliente: email: ***cliente@email.com*** senha:***12345678*** <br>
 
 
 
