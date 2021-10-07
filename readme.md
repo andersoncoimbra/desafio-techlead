@@ -15,22 +15,23 @@ Lista de Tecnologias usadas durante o desafio:
 $ git clone https://github.com/andersoncoimbra/desafio-techlead
 
 #### Instale as bibliotecas necessarias 
-```Via terminal```
+-```Via terminal```
+```
 $ cd desafio-techhead
 $ composer install 
-
+```
 #### Banco de dados 
     * Crie o baco de dados chamado **desafio**
     * Crie um aquivo .env na raiz com base no arquivo .env.example (copie e cole)
     * Edite o arquivo .env alterando as seguinte variaveis com os dados do banco 
-    ```
+    ````TXT
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
         DB_PORT=3306
         DB_DATABASE=desafio
         DB_USERNAME=root
         DB_PASSWORD=
-    ```
+    ````
     * Com o banco configurado na aplicação realize a migração da estrutura do banco 
     ```Via terminal```
         $ php artisan migrate
