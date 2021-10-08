@@ -49,6 +49,19 @@ Registra um usuario do tipo administrador e outro do tipo cliente<br>
 $ php artisan db:seed
 ```
 
+* Executa a aplicação local <br>
+
+```Via terminal```
+```
+$ php artisan serve
+```
+Acesse a url: http://127.0.0.1:8000/home
+
+* Pasta raiz da index.php <br>
+```
+path: desafio-techlead\public\index.php
+```
+
 Dados iniciais de acesso:
 
 Administrador: email: ***admin@email.com*** senha: ***12345678*** <br>
