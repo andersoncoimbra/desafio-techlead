@@ -130,28 +130,12 @@ return [
     'menu' => [
         ['header' => 'main_navigation'],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-file',
+            'text'        => 'Home',
+            'url'         => 'home',
+            'icon'        => 'fas fa-home',
             'label'       => 4,
             'label_color' => 'success',
-        ],
-        ['header' => 'account_settings'],
-        [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],        
+        ],                
     ],
 
     /*

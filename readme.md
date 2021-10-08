@@ -1,5 +1,5 @@
 ##  Analista Desenvolvedor PHP (Júnior) - Linguagem PHP
-Sistema de Gerenciamente de Biblioteca
+Sistema de Gerenciamente de Biblioteca<br>
 Sistema criado para  uma das fases de teste de conhecimentos para a vaga de Desenvolvedor PHP da TECHLEAD, nesse desafio é usado Laravel como framework principal pois fornece recursos que reduzem o tempo de desenolvimento.
 ***
 
@@ -50,7 +50,7 @@ $ php artisan db:seed
 ```
 
 Dados iniciais de acesso:
- 
+
 Administrador: email: ***admin@email.com*** senha: ***12345678*** <br>
 Cliente: email: ***cliente@email.com*** senha: ***12345678*** <br>
 

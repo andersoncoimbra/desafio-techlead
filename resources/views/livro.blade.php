@@ -18,27 +18,28 @@
                 </ul>
             </div>
         @endif
-            <form action="{{route('registro')}}" method="post">
+            <form action="{{route('alterar.registro', ['livro'=> $livro->id])}}" method="post">
                 @csrf
                 <div class="box">
                     <div class="box-header with-border">
-                    <h3 class="box-title">Registrar Livro</h3>
+                    <h3 class="box-title">Atualizar Livro</h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
                         <div class="form-group">
                             <label for="titulo">Titulo do livro</label>
-                            <input  class="form-control" id="titulo" name="titulo" placeholder="Digite o titulo do livro">
+                            <input hidden type="text" name="id" id="id" value="{{$livro->id}}">
+                            <input  class="form-control" id="titulo" name="titulo" value="{{$livro->titulo}}" placeholder="Digite o titulo do livro">
                         </div>
                         <div class="form-group">
                             <label for="autor">Autor do livro</label>
-                            <input  class="form-control" id="titulo" name="autor" placeholder="Digite o Autor do livro">
+                            <input  class="form-control" id="titulo" name="autor"  value="{{$livro->autor}}" placeholder="Digite o Autor do livro">
                         </div>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
                         <ul class="pagination pagination-sm no-margin pull-right">
-                            <button type="submit" class="btn btn-primary">Registrar</button>
+                            <button type="submit" class="btn btn-primary">Atualizar</button>
                         </ul>
                     </div>
                 </div>
@@ -51,7 +52,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <table class="table table-bordered">
+              <table class="table table-striped">
                   <thead>
                       <tr>
                           <th>#</th>

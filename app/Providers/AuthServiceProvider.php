@@ -24,6 +24,10 @@ class AuthServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerPolicies();
+        Gate::define('atualizar-livro', function ($user, $livro) {
+            return $user->id == $livro->user_id || $user->tipo == 2;
+        });
+        
 
         //
     }
